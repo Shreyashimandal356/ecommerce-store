@@ -30,10 +30,6 @@ A small shop app with product listing, cart, checkout (order creation), and real
 
 Open the dev server URL (typically `http://localhost:5173`). Log in with the admin account to see the **Admin** link and create products.
 
-### Production Notes
-- Create a Firebase project and replace `.env` with your real web config.
-- Update **firestore.rules** if you adjust data model.
-
 ## Project Structure
 - `web/` – Vue SPA
 - `firestore.rules` – security rules (admin via custom claim `admin: true`)
